@@ -1,0 +1,10 @@
+/* PETS */
+
+	name: Yoshi
+	breed: Boston Terrier
+	about: Scrappy and a bit of a bully but loves to cuddle.
+	favorite treat: Popcorn
+
+	name: Pinkerton
+	breed: Boston Terrier
+	favorite toy: Rubber ball

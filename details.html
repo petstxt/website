@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="Hugo 0.98.0">
+
+    <title>Pets.txt | Details</title>
+
+    <link rel="author" href="pets.txt" />
+    <link rel="author" href="humans.txt" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R0GX3R3VLN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []
+        function gtag() { dataLayer.push(arguments) }
+        gtag('js', new Date())
+        gtag('config', 'G-R0GX3R3VLN');
+    </script>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+        crossorigin="anonymous">
+
+    <style>
+        a {
+            color: #0376BB;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+        <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+            <a href="index.html" class="d-flex align-items-center text-dark text-decoration-none">
+                <img src="./assets/images/petstxt_logo.png" class="img-fluid" />
+            </a>
+        </header>
+
+        <main>
+            <h1>Implementation Details</h1>
+
+            <p class="fs-5 py-2">
+                <h2>Quick Start</h2>
+                <ol>
+                    <li>Getting started with pets.txt is simple. Create a file on the root of your website called <code>pets.txt</code>.</li>
+                    <li>The contents of the file is pretty simple with only a few requirements. See the example file below.</li>
+                    <li>Add a link reference in the header tags of your website, <code>&lt;link rel="author" href="pets.txt" /&gt;</code>
+                    <li>Put a <a href="logos.html">badge</a> on your site with a link to the <code>pets.txt</code> file.
+                </ol>
+            </p>
+
+            <p class="fs-5 py-2">
+                <h2>Example File</h2>
+                <div class="border border-dark">
+                    <pre>
+
+    /* PETS */
+
+        name: Santa's Little Helper
+        breed: Greyhound
+        about: Loves chewing on newspapers.
+
+        name: Scooby
+        breed: Great Dane
+        about: Kind of a scaredy cat!
+        favorite treat: Scooby Snacks
+
+        name: Morris
+        breed: Tabby House Cat
+        about: Once ran for president of the United States.
+
+        [...]
+
+                    </pre>
+                </div>
+            </p>
+
+         <p class="fs-5 py-2">
+            <h2>Specification</h2>
+
+            <p class="fs-5 py-2">
+                Rules marked as <strong>must</strong> are required for your <code>pets.txt</code> file to be compliant.
+                Rules with <strong>should</strong> are strongly recommended but not required.
+            </p>
+
+            <h3 class="py-2">File</h3>
+            <ul>
+                <li>File <strong>must</strong> be a UTF-8 file called <code>pets.txt</code></li>
+                <li>Filename <strong>must</strong> be in all lowercase</li>
+                <li>File <strong>must</strong> be publically accessible</li>
+                <li>File <strong>must</strong> end with a Unix line feed character (new line).</li>
+            </ul>
+
+            <h3 class="py-2">Contents</h3>
+            <ul>
+                <li>File <strong>must</strong> contain a <code>/* PETS */</code> element as the first entry in the file.</li>
+                <li><code>/* PETS */</code> <strong>should</strong> be proceeded by a Unix line feed character (new line).</li>
+                <li>Each pet block <strong>must</strong> be seperated a Unix line feed character (new line).</li>
+            </ul>
+
+            <h3 class="py-2">Pet Blocks</h3>
+            <ul>
+                <li>Each pet block <strong>must</strong> contain a <code>name:</code> element as the first entry in the block along with a string value.</li>
+                <li>Key elements <strong>should</strong> begin with a tab character.</li>
+                <li>All key elements <strong>must</strong> end with a <code>:</code> (colon) proceeded by a single UTF-8 space.</li>
+                <li>All key elements <strong>should</strong> have a non-empty value</li>
+            </ul>
+        </p>
+
+        </main>
+
+        <footer class="pt-5 my-5 text-muted border-top row">
+            <div class="col-md-4">
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                    <img alt="Creative Commons License" style="border-width:0"
+                        src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+                </a>
+                <br />
+                pets.txt is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                    Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="./pets.txt" target="_blank">
+                    <img src="./assets/images/petstxt_logo_badge_sm.png" class="me-3" height="25" />
+                </a>
+                <a href="hamans.txt" target="_blank"><img src="https://humanstxt.org/img/oficial-logos/humanstxt-isolated-blank.gif" height="45" /></a>
+            </div>
+            <div class="col-md-4  text-center">
+                <a href="#" target="_blank">Twitter</a> | <a href="#" target="_blank">Instagram</a>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
